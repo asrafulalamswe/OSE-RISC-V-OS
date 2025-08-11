@@ -10,7 +10,7 @@ CFLAGS="-std=gnu11 -O2 -g3 -Wall -Wextra \
   -ffreestanding -fno-stack-protector -nostdlib"
 
 # Build
-$CC $CFLAGS -Wl,-Tkernel.ld -Wl,-Map=kernel.map -o kernel.elf kernel.c
+$CC $CFLAGS -Wl,-Tkernel.ld -Wl,-Map=kernel.map -o kernel.elf kernel.c common.c
 
 # Run (uses your installed RV64 OpenSBI)
 exec "$QEMU" -machine virt -cpu rv64 \
