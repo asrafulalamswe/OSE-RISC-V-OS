@@ -1,0 +1,95 @@
+             VMA              LMA     Size Align Out     In      Symbol
+               0                0 80200000     1 . = 0x80200000
+        80200000         80200000       58     4 .text
+        80200000         80200000        c     2         /tmp/kernel-29b9a9.o:(.text.boot)
+        80200000         80200000        0     1                 
+        80200000         80200000        0     1                 
+        80200000         80200000        0     1                 
+        80200000         80200000        0     1                 .Lpcrel_hi0
+        80200000         80200000        0     1                 
+        80200000         80200000        c     1                 kernel_entry
+        8020000c         8020000c        0     1                 
+        8020000c         8020000c        0     1                 
+        8020000c         8020000c       4c     4         /tmp/kernel-29b9a9.o:(.text)
+        8020000c         8020000c        0     1                 
+        8020000c         8020000c        0     1                 
+        8020000c         8020000c        0     1                 
+        8020000c         8020000c        0     1                 
+        8020000c         8020000c        6     1                 sbi_call
+        80200010         80200010        0     1                 
+        80200012         80200012        0     1                 
+        80200012         80200012        0     1                 
+        80200012         80200012        0     1                 
+        80200012         80200012        0     1                 
+        80200012         80200012        0     1                 
+        80200012         80200012        0     1                 
+        80200012         80200012       14     1                 putchar
+        80200024         80200024        0     1                 
+        80200024         80200024        0     1                 
+        80200026         80200026        0     1                 
+        80200026         80200026        0     1                 
+        80200026         80200026        0     1                 
+        80200026         80200026        0     1                 
+        80200026         80200026        0     1                 
+        80200026         80200026       32     1                 kernel_main
+        80200028         80200028        0     1                 .LBB3_3
+        8020003e         8020003e        0     1                 
+        8020003e         8020003e        0     1                 
+        80200046         80200046        0     1                 
+        80200046         80200046        0     1                 
+        8020004c         8020004c        0     1                 
+        8020004c         8020004c        0     1                 
+        8020004e         8020004e        0     1                 
+        80200052         80200052        0     1                 
+        80200052         80200052        0     1                 
+        80200056         80200056        0     1                 
+        80200058         80200058        0     1                 
+        80200058         80200058        0     1                 
+        80200058         80200058       10     8 .rodata
+        80200058         80200058       10     1         <internal>:(.rodata)
+        80200070         80200070        0    16 .bss
+        80200070         80200070        0     1         __bss = .
+        80200070         80200070        0     1         __bss_end = .
+        80200070         80200070        0     1 . = ALIGN ( 16 )
+        80200070         80200070    20000     1 . += 128 * 1024
+        80220070         80220070        0     1 __stack_top = .
+        80220070         80220070      f90     1 . = ALIGN ( 4096 )
+        80221000         80221000        0     1 __free_ram = .
+        80221000         80221000  4000000     1 . += 64 * 1024 * 1024
+        84221000         84221000        0     1 __free_ram_end = .
+               0                0       48     1 .debug_loclists
+               0                0       48     1         /tmp/kernel-29b9a9.o:(.debug_loclists)
+               c                c        0     1                 
+               0                0      12e     1 .debug_abbrev
+               0                0      12e     1         /tmp/kernel-29b9a9.o:(.debug_abbrev)
+               0                0      2a0     1 .debug_info
+               0                0      2a0     1         /tmp/kernel-29b9a9.o:(.debug_info)
+               0                0       17     1 .debug_rnglists
+               0                0       17     1         /tmp/kernel-29b9a9.o:(.debug_rnglists)
+               c                c        0     1                 
+               0                0       88     1 .debug_str_offsets
+               0                0       88     1         /tmp/kernel-29b9a9.o:(.debug_str_offsets)
+               8                8        0     1                 
+               0                0       ea     1 .debug_str
+               0                0       ea     1         <internal>:(.debug_str)
+               0                0       38     1 .debug_addr
+               0                0       38     1         /tmp/kernel-29b9a9.o:(.debug_addr)
+               8                8        0     1                 
+               0                0       42     1 .comment
+               0                0       42     1         <internal>:(.comment)
+               0                0       2b     1 .riscv.attributes
+               0                0       2b     1         /tmp/kernel-29b9a9.o:(.riscv.attributes)
+               0                0       78     8 .debug_frame
+               0                0       78     8         /tmp/kernel-29b9a9.o:(.debug_frame)
+               0                0        0     1                 
+               0                0       f4     1 .debug_line
+               0                0       f4     1         /tmp/kernel-29b9a9.o:(.debug_line)
+               0                0        0     1                 .Lline_table_start0
+               0                0       3e     1 .debug_line_str
+               0                0       3e     1         <internal>:(.debug_line_str)
+               0                0      828     8 .symtab
+               0                0      828     8         <internal>:(.symtab)
+               0                0       d6     1 .shstrtab
+               0                0       d6     1         <internal>:(.shstrtab)
+               0                0       92     1 .strtab
+               0                0       92     1         <internal>:(.strtab)
